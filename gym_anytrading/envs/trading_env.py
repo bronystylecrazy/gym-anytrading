@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 
 
 class Actions(Enum):
-    Sell = 0
+    Sell = -1
+    Hold = 0
     Buy = 1
 
 
