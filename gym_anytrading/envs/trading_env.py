@@ -94,7 +94,8 @@ class TradingEnv(gym.Env):
         info = dict(
             total_reward = self._total_reward,
             total_profit = self._total_profit,
-            position = self._position.value
+            position = self._position.value,
+            date = self._current_tick
         )
         self._update_history(info)
 
